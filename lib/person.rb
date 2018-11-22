@@ -36,11 +36,7 @@ class Person
   end
   
   def happy?(index)
-    if index>7
-      return true 
-    else 
-      return false 
-    end
+    self.happiness > 7? true : false
   end
   
 end
