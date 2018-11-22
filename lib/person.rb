@@ -25,5 +25,8 @@ binding.pry
     end
   end
   
-  def hygiene
+  def hygiene=(index)
+    if index>10
+      @hygiene=10
+    end
 end
