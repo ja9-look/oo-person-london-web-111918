@@ -35,7 +35,7 @@ class Person
     end
   end
   
-  def happy?=(index)
+  def happy?(index)
     if index>7
       return true 
     else 
