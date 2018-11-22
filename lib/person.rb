@@ -29,4 +29,5 @@ binding.pry
     if index>10
       @hygiene=10
     end
+  end
 end
