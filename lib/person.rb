@@ -14,6 +14,6 @@ binding.pry
     @happiness = 8
   end
 
-  def level_of_happiness(points)
+  def happiness=(points)
     
 end
