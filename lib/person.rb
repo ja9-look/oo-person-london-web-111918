@@ -2,7 +2,7 @@
 
 class Person
   
-  
+  attr_writer :bank_account_balance
   
   def initialize(name)
     @name = name
