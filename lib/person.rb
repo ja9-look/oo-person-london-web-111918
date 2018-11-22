@@ -11,4 +11,8 @@ class Person
   def name
     @name
   end
+  
+  def bank_account
+    @bank_account_balance = 25
+  end
 end
