@@ -15,4 +15,9 @@ class Person
   def bank_account
     @bank_account = 25
   end
+  
+  def happiness
+    @happiness = 8
+  end
+  
 end
