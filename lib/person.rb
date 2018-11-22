@@ -43,4 +43,7 @@ class Person
     self.hygiene > 7? true : false
   end
   
+  def get_pad(salary)
+    
+  end
 end
