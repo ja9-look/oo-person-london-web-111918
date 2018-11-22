@@ -10,5 +10,9 @@ class Person
     @happiness = happiness
   end
   
+  def name
+    @name
+  end
+  
 
 end
