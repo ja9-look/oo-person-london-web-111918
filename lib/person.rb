@@ -15,5 +15,5 @@ binding.pry
   end
 
   def happiness=(points)
-    
+    if 
 end
