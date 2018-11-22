@@ -35,7 +35,7 @@ class Person
     end
   end
   
-  def happy?(index)
+  def happy?
     self.happiness > 7? true : false
   end
   
