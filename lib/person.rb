@@ -50,7 +50,7 @@ class Person
   
   def take_bath
     self.hygiene += 4
-    return song
+    return "song"
   end
   
 end
