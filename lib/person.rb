@@ -3,7 +3,7 @@
 require 'pry'
 class Person
   
-  
+  attr_reader :name
   
 binding.pry
   
