@@ -15,13 +15,13 @@ binding.pry
     @hygiene = 8
   end
 
-  def happiness=(points)
-    if points > 10
+  def happiness=(index)
+    if index > 10
       @happiness=10
-    elsif points < 0
+    elsif index < 0
       @happiness=0
     else
-      @happiness=points
+      @happiness=index
     end
   end
 end
