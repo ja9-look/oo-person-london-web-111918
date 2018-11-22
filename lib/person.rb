@@ -28,6 +28,8 @@ class Person
   def hygiene=(index)
     if index>10
       @hygiene=10
+    else
+      @hygiene=index
     end
   end
 end
