@@ -60,7 +60,7 @@ class Person
   end
   
   def call_friend(name)
-    
+    self.happiness += 3
   end
   
 end
