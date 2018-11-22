@@ -39,4 +39,8 @@ class Person
     self.happiness > 7? true : false
   end
   
+  def clean?
+    self.hygiene > 7? true : false
+  end
+  
 end
