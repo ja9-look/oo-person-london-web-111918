@@ -74,6 +74,8 @@ class Person
       self.happiness += 1 
       friend.happiness += 1
     return "blah blah sun blah rain"
+    elsif topic == "other"
+    return "b"
   end
   end
 
