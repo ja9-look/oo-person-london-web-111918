@@ -14,4 +14,5 @@ binding.pry
     @happiness = 8
   end
 
+  
 end
