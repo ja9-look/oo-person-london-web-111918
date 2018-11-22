@@ -34,4 +34,13 @@ class Person
       @hygiene=index
     end
   end
+  
+  def happy?=(index)
+    if index>7
+      return true 
+    else 
+      return false 
+    end
+  end
+  
 end
