@@ -49,7 +49,7 @@ class Person
   end
   
   def take_bath
-    self.hygiene -= 4
+    self.hygiene += 4
   end
   
 end
