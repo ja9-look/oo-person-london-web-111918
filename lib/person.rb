@@ -20,4 +20,5 @@ binding.pry
     else
       happiness=points
     end
+  end
 end
