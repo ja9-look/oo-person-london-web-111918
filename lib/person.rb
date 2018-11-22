@@ -24,4 +24,6 @@ binding.pry
       @happiness=index
     end
   end
+  
+  def hygiene
 end
