@@ -2,7 +2,7 @@
 
 class Person
   
-  attr_writer :bank_account_balance
+  attr_writer :bank_account
   
   def initialize(name)
     @name = name
@@ -13,6 +13,6 @@ class Person
   end
   
   def bank_account
-    @bank_account_balance = 25
+    @bank_account = 25
   end
 end
