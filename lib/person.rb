@@ -3,7 +3,8 @@
 require 'pry'
 class Person
   
-  attr_reader :name, :bank_account
+  attr_accessor :bank_account
+  attr_reader :name, 
   
 binding.pry
   
