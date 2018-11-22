@@ -4,9 +4,8 @@ class Person
   
   
   
-  def initialize(name, balance)
+  def initialize(name)
     @name = name
-    @balance = 25
   end
   
   def name
