@@ -16,9 +16,9 @@ binding.pry
 
   def happiness=(points)
     if points > 10
-      happiness=10
+      @happiness=10
     else
-      happiness=points
+      @happiness=points
     end
   end
 end
